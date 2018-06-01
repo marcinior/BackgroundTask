@@ -139,7 +139,7 @@
                 android:textColor="@color/colorPrimaryDark"/>
 
             <TextView
-                android:id="@+id/downloadBitesTextView"
+                android:id="@+id/downloadBytesTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -162,6 +162,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:max="100"
                 android:progressTint="@color/colorPrimaryDark"
                 android:visibility="visible" />
         </LinearLayout>
